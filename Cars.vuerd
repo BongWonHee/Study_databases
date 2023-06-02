@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1,
+    "scrollTop": 0,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "CARS",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -201,7 +201,7 @@
             "id": "5718d408-3a74-4e69-a974-c7fedd681be8"
           },
           {
-            "name": "LEADER_SIT",
+            "name": "LEATHER_SEAT",
             "comment": "가죽시트",
             "dataType": "VARCHAR",
             "default": "",
@@ -216,7 +216,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 81.47265625,
+              "widthName": 101.2138671875,
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -339,7 +339,7 @@
             "id": "3f872b03-318d-46a5-b2fc-6f4636c46022"
           },
           {
-            "name": "ELREC_MEMORY_SITE",
+            "name": "ELREC_MEMORY_SEAT",
             "comment": "전자식메모리시트",
             "dataType": "VARCHAR",
             "default": "",
@@ -354,7 +354,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 146.9677734375,
+              "widthName": 151.06201171875,
               "widthComment": 106,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -435,7 +435,7 @@
           "active": false,
           "left": 7,
           "top": 272,
-          "zIndex": 100,
+          "zIndex": 108,
           "widthName": 103.8544921875,
           "widthComment": 60
         },
