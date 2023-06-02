@@ -362,7 +362,7 @@
             "id": "bed0007c-ea81-4f71-ba5c-f6f0faf175c2"
           },
           {
-            "name": "ADAP_CRUSE_CONTROL",
+            "name": "ADAPTIVE_CRUSE_CONTROL",
             "comment": "어뎁티브 크루즈 컨트롤",
             "dataType": "VARCHAR",
             "default": "",
@@ -377,7 +377,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 160.92626953125,
+              "widthName": 189.82080078125,
               "widthComment": 120,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -432,10 +432,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 7,
           "top": 272,
-          "zIndex": 108,
+          "zIndex": 110,
           "widthName": 103.8544921875,
           "widthComment": 60
         },
@@ -468,7 +468,7 @@
           "columnIds": [
             "82d0cabf-d04d-4325-87bc-74fd66f1f039"
           ],
-          "x": 263.263427734375,
+          "x": 277.710693359375,
           "y": 272,
           "direction": "top"
         },
