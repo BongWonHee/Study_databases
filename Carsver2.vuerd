@@ -48,7 +48,7 @@
         "columns": [
           {
             "name": "CARS_CODE",
-            "comment": "차",
+            "comment": "차_코드",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -71,7 +71,7 @@
           },
           {
             "name": "CARS",
-            "comment": "차_코드",
+            "comment": "차",
             "dataType": "VARCHAT",
             "default": "",
             "option": {
@@ -166,7 +166,7 @@
           "active": false,
           "left": 5,
           "top": 13,
-          "zIndex": 151,
+          "zIndex": 186,
           "widthName": 60,
           "widthComment": 60
         },
@@ -410,29 +410,6 @@
             "id": "8f6647c4-d10d-48d4-a4a6-6daf707f36d0"
           },
           {
-            "name": "CARS_CODE",
-            "comment": "차",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 82.9072265625,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "b518b7dc-2eee-49f0-a9a9-8d22b9241f39"
-          },
-          {
             "name": "OPTION_CODE",
             "comment": "옵션_코드",
             "dataType": "VARCHAR",
@@ -454,13 +431,36 @@
               "widthDefault": 60
             },
             "id": "2e3db330-68d2-4a1c-a8d1-807b81045284"
+          },
+          {
+            "name": "CARS_CODE",
+            "comment": "차",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 82.9072265625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "06299147-68f7-4c54-bf44-784b1b20bb17"
           }
         ],
         "ui": {
           "active": false,
-          "left": 4,
-          "top": 306,
-          "zIndex": 156,
+          "left": 2,
+          "top": 340,
+          "zIndex": 188,
           "widthName": 95.18359375,
           "widthComment": 87.22998046875
         },
@@ -520,9 +520,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 23,
-          "top": 573,
-          "zIndex": 157,
+          "left": 29,
+          "top": 628,
+          "zIndex": 174,
           "widthName": 96.62451171875,
           "widthComment": 61.22998046875
         },
@@ -533,36 +533,23 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "차량 정보구성",
+        "ui": {
+          "active": false,
+          "left": 519,
+          "top": 464,
+          "zIndex": 187,
+          "width": 127,
+          "height": 100
+        },
+        "id": "245725ab-dbd0-4806-9c6b-5750b942b742"
+      }
+    ]
   },
   "relationship": {
     "relationships": [
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "64ea64ec-b9a2-42fb-8264-cb7db8575486",
-          "columnIds": [
-            "ac630cf3-6739-47ba-b55c-167856c11001"
-          ],
-          "x": 232.95751953125,
-          "y": 184.5,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "9fbf433b-f50d-4b87-9eec-bf986e96c414",
-          "columnIds": [
-            "b518b7dc-2eee-49f0-a9a9-8d22b9241f39"
-          ],
-          "x": 235.20751953125,
-          "y": 306,
-          "direction": "top"
-        },
-        "constraintName": "fk_cars_to_cars_option",
-        "visible": true,
-        "id": "3ecc54fe-970a-4d56-9a27-e885acb6ef3e"
-      },
       {
         "identification": false,
         "relationshipType": "OneN",
@@ -572,8 +559,8 @@
           "columnIds": [
             "f635a0eb-d729-406e-bf49-8039987dca05"
           ],
-          "x": 223.392822265625,
-          "y": 573,
+          "x": 229.392822265625,
+          "y": 628,
           "direction": "top"
         },
         "end": {
@@ -581,8 +568,8 @@
           "columnIds": [
             "2e3db330-68d2-4a1c-a8d1-807b81045284"
           ],
-          "x": 235.20751953125,
-          "y": 457,
+          "x": 233.20751953125,
+          "y": 491,
           "direction": "bottom"
         },
         "constraintName": "fk_option_code_to_cars_option",
@@ -666,6 +653,32 @@
         "constraintName": "fk_brand_name_code_to_cars",
         "visible": true,
         "id": "a83f9332-28c9-4cf4-95ca-fbf56f435b7b"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "64ea64ec-b9a2-42fb-8264-cb7db8575486",
+          "columnIds": [
+            "ac630cf3-6739-47ba-b55c-167856c11001"
+          ],
+          "x": 232.95751953125,
+          "y": 184.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "9fbf433b-f50d-4b87-9eec-bf986e96c414",
+          "columnIds": [
+            "06299147-68f7-4c54-bf44-784b1b20bb17"
+          ],
+          "x": 233.20751953125,
+          "y": 340,
+          "direction": "top"
+        },
+        "constraintName": "fk_cars_to_cars_option",
+        "visible": true,
+        "id": "790b9e65-477c-416a-98f0-38f3b6c92ff5"
       }
     ]
   }

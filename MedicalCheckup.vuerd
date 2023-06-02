@@ -1,0 +1,1041 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -6,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "MEDICALCHECKUP",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "MEDICALCHECKUP",
+        "comment": "건강검진",
+        "columns": [
+          {
+            "name": "MEDICALCHECKUP",
+            "comment": "검진",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 123.3544921875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "b8046c37-b7dc-4226-9c27-27d03fcfcd00"
+          },
+          {
+            "name": "MEDICALCHECKUP_CODE",
+            "comment": "검진코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 168.1435546875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "11fb9aab-e033-40f8-ae70-ee5b0abbdc02"
+          },
+          {
+            "name": "NAME_CODE",
+            "comment": "이름코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 84.34814453125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "3a2ebedb-44b2-43a1-a01f-c6e4c482e87e"
+          },
+          {
+            "name": "GENDER_CODE",
+            "comment": "성별코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 102.4072265625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "aa715fe6-294d-4368-bfb2-64f68aa28a9f"
+          },
+          {
+            "name": "TALL_WEIGHT_CODE",
+            "comment": "키_몸무게_코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 136.11962890625,
+              "widthComment": 94.4599609375,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a0704756-f6b7-4702-b514-39c04e793ec9"
+          },
+          {
+            "name": "BLOOD_P_S_CODE",
+            "comment": "혈압_혈당_코드",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 124.103515625,
+              "widthComment": 94.4599609375,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "84aecd6d-cc93-49f6-9fa2-a1f06d8e7644"
+          },
+          {
+            "name": "RESULT_CODE",
+            "comment": "검진결과코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 97.11328125,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "cb27a4ff-aa90-476e-b96c-7e1e21b110a5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 41,
+          "top": 36,
+          "zIndex": 314,
+          "widthName": 123.3544921875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "097cd618-e1b3-42a5-8a96-11c8004983eb"
+      },
+      {
+        "name": "NAME",
+        "comment": "이름",
+        "columns": [
+          {
+            "name": "NAME",
+            "comment": "이름",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "66ae7f8d-0cad-4fda-b395-0c993015dc61"
+          },
+          {
+            "name": "NAME_CODE",
+            "comment": "이름코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 84.34814453125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "712420b3-23b4-40c8-8570-15fbdf79d744"
+          },
+          {
+            "name": "GENDER_CODE",
+            "comment": "성별코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 102.4072265625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "0f1c9066-854e-4158-8e1e-54f4dacd2127"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 721,
+          "top": 13,
+          "zIndex": 309,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "34efa098-545c-4baa-8e69-baf05f8f9e11"
+      },
+      {
+        "name": "GENDER",
+        "comment": "성별",
+        "columns": [
+          {
+            "name": "GENDER",
+            "comment": "성별",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "cd3f22ff-e48b-4231-be6b-8a41ec452faf"
+          },
+          {
+            "name": "GENDER_CODE",
+            "comment": "성별코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 102.4072265625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a3f05933-c465-4d76-a60c-64f9b414ef02"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 737,
+          "top": 162,
+          "zIndex": 308,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2c1c1099-4660-4273-b2b9-0f1941029f56"
+      },
+      {
+        "name": "TALL_WEIGHT",
+        "comment": "키_몸무게",
+        "columns": [
+          {
+            "name": "TALL_WEIGHT",
+            "comment": "키_몸무게",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 91.33056640625,
+              "widthComment": 61.22998046875,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "4d86e57b-faec-4223-aa74-e8dd974a8b10"
+          },
+          {
+            "name": "TALL_WEIGHT_CODE",
+            "comment": "키_몸무게_코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 136.11962890625,
+              "widthComment": 94.4599609375,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a9ae4caa-fd5d-49d6-929e-f59554c5a206"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 721,
+          "top": 300,
+          "zIndex": 307,
+          "widthName": 91.33056640625,
+          "widthComment": 61.22998046875
+        },
+        "visible": true,
+        "id": "6f55df32-64ab-41eb-bb5d-7090716b37af"
+      },
+      {
+        "name": "BLOOD_P_S",
+        "comment": "혈압_혈당",
+        "columns": [
+          {
+            "name": "BLOOD_P_S",
+            "comment": "혈압_혈당",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.314453125,
+              "widthComment": 61.22998046875,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "cf104217-a5bf-46b1-8ae9-92c43a8df315"
+          },
+          {
+            "name": "BLOOD_P_S_CODE",
+            "comment": "혈압_혈당_코드",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 124.103515625,
+              "widthComment": 94.4599609375,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f8cacd70-e701-4222-85f2-3eb7e89b8f1f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 699,
+          "top": 437,
+          "zIndex": 310,
+          "widthName": 79.314453125,
+          "widthComment": 61.22998046875
+        },
+        "visible": true,
+        "id": "e1fdeadf-3a09-484f-936d-8a74dd694e4e"
+      },
+      {
+        "name": "RESULT",
+        "comment": "검진결과",
+        "columns": [
+          {
+            "name": "RESULT",
+            "comment": "검진결과",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "9b477739-48d3-4d9a-ae4e-fdf44ff67fc2"
+          },
+          {
+            "name": "RESULT_CODE",
+            "comment": "검진결과코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 97.11328125,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "11d19174-4ee7-4311-af11-768582e25987"
+          },
+          {
+            "name": "IMPROVMENT_CODE",
+            "comment": "유지방안코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 134.90087890625,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "cb4cb0d9-b62a-43a5-bc4d-4e4f90052609"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 82,
+          "top": 368,
+          "zIndex": 333,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf"
+      },
+      {
+        "name": "RECHECKUP",
+        "comment": "재검진",
+        "columns": [
+          {
+            "name": "RECHECKUP",
+            "comment": "재검진",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.62451171875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "64bc7dc6-f398-403c-a7dd-30757f25442c"
+          },
+          {
+            "name": "RECHECKUP_CODE",
+            "comment": "재검진 코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 128.41357421875,
+              "widthComment": 70.61181640625,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "d47513e3-2c63-44c2-859b-1ea7af0d4bab"
+          },
+          {
+            "name": "RESULT_CODE",
+            "comment": "검진결과코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 97.11328125,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "85f1e5d1-e380-4f71-84c2-3480e2a2222a"
+          },
+          {
+            "name": "RECHECKUP_LIST_CODE",
+            "comment": "재검진항목코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 163.09716796875,
+              "widthComment": 93,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "8f25f8f7-62a9-4e77-8823-c88054de5eee"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 648,
+          "top": 574,
+          "zIndex": 336,
+          "widthName": 83.62451171875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "1c9cc3ca-393d-42c5-98db-bfd1c648db6e"
+      },
+      {
+        "name": "RECHECKUP_LIST",
+        "comment": "재검진항목",
+        "columns": [
+          {
+            "name": "RECHECKUP_LIST",
+            "comment": "재검진항목",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 118.30810546875,
+              "widthComment": 67,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "94234948-a5ce-4f3a-95f7-ab9c8a08e610"
+          },
+          {
+            "name": "RECHECKUP_LIST_CODE",
+            "comment": "재검진항목코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 163.09716796875,
+              "widthComment": 93,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "1e8288ee-5977-4972-96e1-a40bfa7281b5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1235,
+          "top": 735,
+          "zIndex": 337,
+          "widthName": 118.30810546875,
+          "widthComment": 67
+        },
+        "visible": true,
+        "id": "74da9b72-452e-46cd-bc19-51112413faa5"
+      },
+      {
+        "name": "IMPROVMENT",
+        "comment": "유지방안",
+        "columns": [
+          {
+            "name": "IMPROVMENT",
+            "comment": "유지방안",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 90.11181640625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "4fa9a8c7-4a4b-49aa-b6de-d629692fe657"
+          },
+          {
+            "name": "IMPROVMENT_CODE",
+            "comment": "유지방안코드",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 134.90087890625,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a55e0364-b1a3-4799-af6f-9e738cab6f4d"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 26,
+          "top": 753,
+          "zIndex": 332,
+          "widthName": 90.11181640625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "4300abe9-2dff-40bb-93db-84d26acb9981"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": [
+      {
+        "value": "건강검진 DATABASE설계도",
+        "ui": {
+          "active": false,
+          "left": 1196,
+          "top": 36,
+          "zIndex": 343,
+          "width": 127,
+          "height": 100
+        },
+        "id": "4b6f4195-063d-48b2-a239-a5071e472e1a"
+      }
+    ]
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "34efa098-545c-4baa-8e69-baf05f8f9e11",
+          "columnIds": [
+            "712420b3-23b4-40c8-8570-15fbdf79d744"
+          ],
+          "x": 721,
+          "y": 78.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "097cd618-e1b3-42a5-8a96-11c8004983eb",
+          "columnIds": [
+            "3a2ebedb-44b2-43a1-a01f-c6e4c482e87e"
+          ],
+          "x": 535.2041015625,
+          "y": 62.5625,
+          "direction": "right"
+        },
+        "constraintName": "fk_name_to_medicalcheckup",
+        "visible": true,
+        "id": "b44b1b54-24d1-4e46-b32b-78a5e32241b9"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "2c1c1099-4660-4273-b2b9-0f1941029f56",
+          "columnIds": [
+            "a3f05933-c465-4d76-a60c-64f9b414ef02"
+          ],
+          "x": 737,
+          "y": 217,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "097cd618-e1b3-42a5-8a96-11c8004983eb",
+          "columnIds": [
+            "aa715fe6-294d-4368-bfb2-64f68aa28a9f"
+          ],
+          "x": 535.2041015625,
+          "y": 115.6875,
+          "direction": "right"
+        },
+        "constraintName": "fk_gender_to_medicalcheckup",
+        "visible": true,
+        "id": "71055066-0995-4f41-9e65-97440b354149"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "6f55df32-64ab-41eb-bb5d-7090716b37af",
+          "columnIds": [
+            "a9ae4caa-fd5d-49d6-929e-f59554c5a206"
+          ],
+          "x": 721,
+          "y": 355,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "097cd618-e1b3-42a5-8a96-11c8004983eb",
+          "columnIds": [
+            "a0704756-f6b7-4702-b514-39c04e793ec9"
+          ],
+          "x": 535.2041015625,
+          "y": 168.8125,
+          "direction": "right"
+        },
+        "constraintName": "fk_tall_weight_to_medicalcheckup",
+        "visible": true,
+        "id": "75295040-9d15-42ab-a4c9-fd057ce10c31"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e1fdeadf-3a09-484f-936d-8a74dd694e4e",
+          "columnIds": [
+            "f8cacd70-e701-4222-85f2-3eb7e89b8f1f"
+          ],
+          "x": 699,
+          "y": 492,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "097cd618-e1b3-42a5-8a96-11c8004983eb",
+          "columnIds": [
+            "84aecd6d-cc93-49f6-9fa2-a1f06d8e7644"
+          ],
+          "x": 535.2041015625,
+          "y": 221.9375,
+          "direction": "right"
+        },
+        "constraintName": "fk_blood_p_s_to_medicalcheckup",
+        "visible": true,
+        "id": "66f2492b-7045-41a0-9ec2-a46b45590d17"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf",
+          "columnIds": [
+            "11d19174-4ee7-4311-af11-768582e25987"
+          ],
+          "x": 305.250732421875,
+          "y": 368,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "097cd618-e1b3-42a5-8a96-11c8004983eb",
+          "columnIds": [
+            "cb27a4ff-aa90-476e-b96c-7e1e21b110a5"
+          ],
+          "x": 288.10205078125,
+          "y": 248.5,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_result_to_medicalcheckup",
+        "visible": true,
+        "id": "27765ff2-a2ee-458d-b8d8-2e12a28f5f0a"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf",
+          "columnIds": [
+            "11d19174-4ee7-4311-af11-768582e25987"
+          ],
+          "x": 528.50146484375,
+          "y": 433.25,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "1c9cc3ca-393d-42c5-98db-bfd1c648db6e",
+          "columnIds": [
+            "85f1e5d1-e380-4f71-84c2-3480e2a2222a"
+          ],
+          "x": 648,
+          "y": 649.5,
+          "direction": "left"
+        },
+        "constraintName": "fk_result_to_recheckup",
+        "visible": true,
+        "id": "3b9ac07b-c479-4ff7-a245-f7a4e7d0d8a7"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "74da9b72-452e-46cd-bc19-51112413faa5",
+          "columnIds": [
+            "1e8288ee-5977-4972-96e1-a40bfa7281b5"
+          ],
+          "x": 1235,
+          "y": 790,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "1c9cc3ca-393d-42c5-98db-bfd1c648db6e",
+          "columnIds": [
+            "8f25f8f7-62a9-4e77-8823-c88054de5eee"
+          ],
+          "x": 1135.69775390625,
+          "y": 649.5,
+          "direction": "right"
+        },
+        "constraintName": "fk_recheckup_list_to_recheckup",
+        "visible": true,
+        "id": "c5a6ff3b-ad1e-4ae3-b8f6-0d8aff978d2f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "4300abe9-2dff-40bb-93db-84d26acb9981",
+          "columnIds": [
+            "a55e0364-b1a3-4799-af6f-9e738cab6f4d"
+          ],
+          "x": 249.250732421875,
+          "y": 753,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf",
+          "columnIds": [
+            "cb4cb0d9-b62a-43a5-bc4d-4e4f90052609"
+          ],
+          "x": 305.250732421875,
+          "y": 498.5,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_improvment_to_result",
+        "visible": true,
+        "id": "4d3d55a5-f2c1-4c1c-877d-cc8191b2547e"
+      }
+    ]
+  }
+}
