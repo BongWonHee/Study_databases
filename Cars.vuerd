@@ -1,0 +1,481 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -1,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "CARS",
+        "comment": "차",
+        "columns": [
+          {
+            "name": "BRAND",
+            "comment": "회사이름",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "e5b70ae0-169d-4970-8c09-96a9362c8bc2"
+          },
+          {
+            "name": "CARNAME",
+            "comment": "차이름",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.00634765625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "13ff7231-60ef-41ba-9eff-1940bd347a91"
+          },
+          {
+            "name": "MAKE_YEARS",
+            "comment": "연식",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 90.1435546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c4326e88-4f9c-4b02-a246-335d73480d25"
+          },
+          {
+            "name": "UNIQUE_ID",
+            "comment": "고유ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.7890625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "0667ec89-f627-4444-820f-ced1e20d1a7c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 16,
+          "top": 13,
+          "zIndex": 94,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "23217b68-033f-4da3-8521-85d3ecb75ec2"
+      },
+      {
+        "name": "CARS_OPTIONS",
+        "comment": "차량옵션",
+        "columns": [
+          {
+            "name": "NAVI",
+            "comment": "네비게이션",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 67,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "b861570d-5c53-4d7b-a0ff-2da8461af59f"
+          },
+          {
+            "name": "BACK_CAMERA",
+            "comment": "후방카메라",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 100.2490234375,
+              "widthComment": 67,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "5718d408-3a74-4e69-a974-c7fedd681be8"
+          },
+          {
+            "name": "LEADER_SIT",
+            "comment": "가죽시트",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 81.47265625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "15caf0c2-6db6-4afc-aeaa-7dad0e5587a1"
+          },
+          {
+            "name": "SMARTKEY",
+            "comment": "스마트키",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.27783203125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "01ff0650-a5f4-41c2-a443-cf267526ec90"
+          },
+          {
+            "name": "CRUSECONTROL",
+            "comment": "크루즈컨트롤",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.0654296875,
+              "widthComment": 80,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "3d6c7ff7-3733-4095-a95c-797fc70edc88"
+          },
+          {
+            "name": "BLUETOOTH",
+            "comment": "블루투스",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 81.21875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "ecf71213-d068-4311-985d-6a6febd040f2"
+          },
+          {
+            "name": "BACK_SENSERS",
+            "comment": "후방센서",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 106.76171875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a18823ec-1534-42e9-84ef-0065482fa452"
+          },
+          {
+            "name": "HEADUPDISPLAY",
+            "comment": "헤드업디스플레이",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 110.1259765625,
+              "widthComment": 106,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "3f872b03-318d-46a5-b2fc-6f4636c46022"
+          },
+          {
+            "name": "ELREC_MEMORY_SITE",
+            "comment": "전자식메모리시트",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 146.9677734375,
+              "widthComment": 106,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "bed0007c-ea81-4f71-ba5c-f6f0faf175c2"
+          },
+          {
+            "name": "ADAP_CRUSE_CONTROL",
+            "comment": "어뎁티브 크루즈 컨트롤",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 160.92626953125,
+              "widthComment": 120,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "40abb71a-447c-451a-8d2d-3c868449310b"
+          },
+          {
+            "name": "UNIQUE_ID",
+            "comment": "차량옵션_고유ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.7890625,
+              "widthComment": 100.22998046875,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "55dadb52-6ad5-4677-8a59-1ab4df67eb6d"
+          },
+          {
+            "name": "UNIQUE_ID",
+            "comment": "고유ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 72.7890625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "82d0cabf-d04d-4325-87bc-74fd66f1f039"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 7,
+          "top": 272,
+          "zIndex": 100,
+          "widthName": 103.8544921875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "86a7418a-74ba-483b-94fa-b45f5c3f7206"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "23217b68-033f-4da3-8521-85d3ecb75ec2",
+          "columnIds": [
+            "0667ec89-f627-4444-820f-ced1e20d1a7c"
+          ],
+          "x": 206.8720703125,
+          "y": 164,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "86a7418a-74ba-483b-94fa-b45f5c3f7206",
+          "columnIds": [
+            "82d0cabf-d04d-4325-87bc-74fd66f1f039"
+          ],
+          "x": 263.263427734375,
+          "y": 272,
+          "direction": "top"
+        },
+        "constraintName": "fk_cars_to_cars_options",
+        "visible": true,
+        "id": "5318d9c0-5ca2-4b8a-ba23-65872121a859"
+      }
+    ]
+  }
+}
