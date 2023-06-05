@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -179,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -49,7 +49,7 @@
           {
             "name": "CARS_CODE",
             "comment": "차_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 82.9072265625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "ac630cf3-6739-47ba-b55c-167856c11001"
@@ -72,13 +72,13 @@
           {
             "name": "CARS",
             "comment": "차",
-            "dataType": "VARCHAT",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 62.1884765625,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "64e7f065-ff42-45be-8b90-ce2b638e4fbd"
@@ -95,7 +95,7 @@
           {
             "name": "CARS_NAME_CODE",
             "comment": "차량이름코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -110,7 +110,7 @@
               "pfk": false,
               "widthName": 127.6962890625,
               "widthComment": 80,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "e828971e-9a5c-4931-a69c-57ca65d6adf6"
@@ -118,7 +118,7 @@
           {
             "name": "MAKE_YEARS_CODE",
             "comment": "연식코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 134.9326171875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "fa393db5-a883-4547-ac34-387553725fb0"
@@ -141,7 +141,7 @@
           {
             "name": "BRAND_NAME_CODE",
             "comment": "회사이름_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -156,7 +156,7 @@
               "pfk": false,
               "widthName": 137.08447265625,
               "widthComment": 87.22998046875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "4a48e2f9-92aa-47cc-b4cb-15697f077e5e"
@@ -166,7 +166,7 @@
           "active": false,
           "left": 5,
           "top": 13,
-          "zIndex": 186,
+          "zIndex": 34,
           "widthName": 60,
           "widthComment": 60
         },
@@ -180,13 +180,13 @@
           {
             "name": "CARS_NAME",
             "comment": "차량이름",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -195,7 +195,7 @@
               "pfk": false,
               "widthName": 82.9072265625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "567b53a8-eedc-4a82-9d09-adcb13d65632"
@@ -203,7 +203,7 @@
           {
             "name": "CARS_NAME_CODE",
             "comment": "차량이름코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -218,7 +218,7 @@
               "pfk": false,
               "widthName": 127.6962890625,
               "widthComment": 80,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "5396826a-bcb1-49e2-a250-5f896cb2089a"
@@ -228,7 +228,7 @@
           "active": false,
           "left": 659,
           "top": 42,
-          "zIndex": 152,
+          "zIndex": 32,
           "widthName": 127.6962890625,
           "widthComment": 80
         },
@@ -242,13 +242,13 @@
           {
             "name": "MAKE_YEARS",
             "comment": "연식",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -257,7 +257,7 @@
               "pfk": false,
               "widthName": 90.1435546875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "aae171ae-bd18-41ba-bd2a-37ccbf24ae26"
@@ -265,7 +265,7 @@
           {
             "name": "MAKE_YEARS_CODE",
             "comment": "연식코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -280,7 +280,7 @@
               "pfk": false,
               "widthName": 134.9326171875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "443133d6-e3c8-4a5e-92b4-78392a791f94"
@@ -290,7 +290,7 @@
           "active": false,
           "left": 663,
           "top": 190,
-          "zIndex": 153,
+          "zIndex": 30,
           "widthName": 134.9326171875,
           "widthComment": 60
         },
@@ -304,13 +304,13 @@
           {
             "name": "BRAND_NAME",
             "comment": "회사이름",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -319,7 +319,7 @@
               "pfk": false,
               "widthName": 92.29541015625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "1377bdbe-fba6-4a9d-ae10-c366fbd84a01"
@@ -327,7 +327,7 @@
           {
             "name": "BRAND_NAME_CODE",
             "comment": "회사이름_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -342,7 +342,7 @@
               "pfk": false,
               "widthName": 137.08447265625,
               "widthComment": 87.22998046875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "65ceff8b-97c0-4c6c-8ddf-c25c4accce9a"
@@ -352,7 +352,7 @@
           "active": false,
           "left": 665,
           "top": 323,
-          "zIndex": 155,
+          "zIndex": 28,
           "widthName": 137.08447265625,
           "widthComment": 80
         },
@@ -366,13 +366,13 @@
           {
             "name": "CARS_OPTION ",
             "comment": "차량옵션",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -381,7 +381,7 @@
               "pfk": false,
               "widthName": 98.79541015625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "54bc42e4-f416-4957-b6cb-5c2da01e87ac"
@@ -389,7 +389,7 @@
           {
             "name": "CARS_OPTION_CODE ",
             "comment": "차량옵션_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -404,7 +404,7 @@
               "pfk": false,
               "widthName": 143.58447265625,
               "widthComment": 87.22998046875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "8f6647c4-d10d-48d4-a4a6-6daf707f36d0"
@@ -412,7 +412,7 @@
           {
             "name": "OPTION_CODE",
             "comment": "옵션_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -427,7 +427,7 @@
               "pfk": false,
               "widthName": 96.62451171875,
               "widthComment": 61.22998046875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "2e3db330-68d2-4a1c-a8d1-807b81045284"
@@ -435,7 +435,7 @@
           {
             "name": "CARS_CODE",
             "comment": "차",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -450,7 +450,7 @@
               "pfk": false,
               "widthName": 82.9072265625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "06299147-68f7-4c54-bf44-784b1b20bb17"
@@ -460,7 +460,7 @@
           "active": false,
           "left": 2,
           "top": 340,
-          "zIndex": 188,
+          "zIndex": 23,
           "widthName": 95.18359375,
           "widthComment": 87.22998046875
         },
@@ -472,24 +472,24 @@
         "comment": "옵션_코드",
         "columns": [
           {
-            "name": "OPTION",
+            "name": "OPTION_VALUE",
             "comment": "옵션",
-            "dataType": "VARBINARY",
+            "dataType": "VARBINARY(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 100.7314453125,
               "widthComment": 60,
-              "widthDataType": 75.93115234375,
+              "widthDataType": 106.279296875,
               "widthDefault": 60
             },
             "id": "9b43e9b2-7f20-46bb-b153-367f6efbba45"
@@ -497,7 +497,7 @@
           {
             "name": "OPTION_CODE",
             "comment": "옵션_코드",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -512,7 +512,7 @@
               "pfk": false,
               "widthName": 96.62451171875,
               "widthComment": 61.22998046875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "f635a0eb-d729-406e-bf49-8039987dca05"
@@ -522,7 +522,7 @@
           "active": false,
           "left": 29,
           "top": 628,
-          "zIndex": 174,
+          "zIndex": 36,
           "widthName": 96.62451171875,
           "widthComment": 61.22998046875
         },
@@ -540,7 +540,7 @@
           "active": false,
           "left": 519,
           "top": 464,
-          "zIndex": 187,
+          "zIndex": 6,
           "width": 127,
           "height": 100
         },
@@ -559,7 +559,7 @@
           "columnIds": [
             "f635a0eb-d729-406e-bf49-8039987dca05"
           ],
-          "x": 229.392822265625,
+          "x": 246.620361328125,
           "y": 628,
           "direction": "top"
         },
@@ -568,7 +568,7 @@
           "columnIds": [
             "2e3db330-68d2-4a1c-a8d1-807b81045284"
           ],
-          "x": 233.20751953125,
+          "x": 248.381591796875,
           "y": 491,
           "direction": "bottom"
         },
@@ -594,7 +594,7 @@
           "columnIds": [
             "e828971e-9a5c-4931-a69c-57ca65d6adf6"
           ],
-          "x": 460.9150390625,
+          "x": 491.26318359375,
           "y": 41.58333333333333,
           "direction": "right"
         },
@@ -620,7 +620,7 @@
           "columnIds": [
             "fa393db5-a883-4547-ac34-387553725fb0"
           ],
-          "x": 460.9150390625,
+          "x": 491.26318359375,
           "y": 98.75,
           "direction": "right"
         },
@@ -646,7 +646,7 @@
           "columnIds": [
             "4a48e2f9-92aa-47cc-b4cb-15697f077e5e"
           ],
-          "x": 460.9150390625,
+          "x": 491.26318359375,
           "y": 155.91666666666666,
           "direction": "right"
         },
@@ -663,7 +663,7 @@
           "columnIds": [
             "ac630cf3-6739-47ba-b55c-167856c11001"
           ],
-          "x": 232.95751953125,
+          "x": 248.131591796875,
           "y": 184.5,
           "direction": "bottom"
         },
@@ -672,7 +672,7 @@
           "columnIds": [
             "06299147-68f7-4c54-bf44-784b1b20bb17"
           ],
-          "x": 233.20751953125,
+          "x": 248.381591796875,
           "y": 340,
           "direction": "top"
         },
