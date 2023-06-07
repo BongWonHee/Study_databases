@@ -186,7 +186,7 @@
             "id": "de32b242-a323-45fe-aa11-400f075fe84f"
           },
           {
-<<<<<<< HEAD
+
             "name": "BLOOD_P_ID",
             "comment": "혈압ID",
             "dataType": "INTEGER",
@@ -210,8 +210,7 @@
             "id": "0ca5c35a-8544-45cb-b96a-0cfab8379807"
           },
           {
-=======
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
             "name": "WEIGHT_ID",
             "comment": "몸무게ID",
             "dataType": "VARCHAR(500)",
@@ -234,28 +233,7 @@
             },
             "id": "905267ee-1185-4263-b118-b8a33f2be793"
           },
-          {
-            "name": "BLOOD_P_ID",
-            "comment": "혈압ID",
-            "dataType": "INTEGER",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 83.6435546875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "0ca5c35a-8544-45cb-b96a-0cfab8379807"
+       
           },
           {
             "name": "BLOOD_S_ID",
@@ -281,11 +259,11 @@
             "id": "7c976972-5d06-4661-bfb8-03d4dfc43c3e"
           },
           {
-<<<<<<< HEAD
+
             "name": "RESULT_VALUE_ID",
-=======
+
             "name": "RESULT_ID",
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
             "comment": "검진결과ID",
             "dataType": "VARCHAR(500)",
             "default": "",
@@ -300,31 +278,29 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-<<<<<<< HEAD
+
               "widthName": 121.4501953125,
-=======
-              "widthName": 72.55419921875,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
+             
+
               "widthComment": 67,
               "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
-<<<<<<< HEAD
+
             "id": "7cbc07e5-7d8a-48e0-878c-0adb48ac7b47"
-=======
-            "id": "ce185f83-6426-4276-b994-24348e645714"
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
+         
+
           }
         ],
         "ui": {
           "active": false,
           "left": 566,
           "top": 296,
-<<<<<<< HEAD
-          "zIndex": 22,
-=======
+
           "zIndex": 45,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 123.3544921875,
           "widthComment": 60
         },
@@ -510,11 +486,9 @@
           "active": false,
           "left": 1034,
           "top": 34,
-<<<<<<< HEAD
+
           "zIndex": 10,
-=======
-          "zIndex": 14,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 60,
           "widthComment": 60
         },
@@ -659,15 +633,11 @@
         ],
         "ui": {
           "active": false,
-<<<<<<< HEAD
-          "left": 594,
-          "top": 700,
-          "zIndex": 23,
-=======
+
           "left": 675,
           "top": 660,
           "zIndex": 16,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 60,
           "widthComment": 60
         },
@@ -729,11 +699,9 @@
           "active": false,
           "left": 21,
           "top": 481,
-<<<<<<< HEAD
+
           "zIndex": 14,
-=======
-          "zIndex": 4,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 83.62451171875,
           "widthComment": 60
         },
@@ -791,13 +759,10 @@
             "id": "1e8288ee-5977-4972-96e1-a40bfa7281b5"
           },
           {
-<<<<<<< HEAD
+
             "name": "RECHECKUP_ID",
             "comment": "재검진ID",
-=======
-            "name": "IMPROVMENT_ID",
-            "comment": "유지방안ID",
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
             "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
@@ -811,33 +776,24 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-<<<<<<< HEAD
+
               "widthName": 103.8544921875,
               "widthComment": 60,
               "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "316377e7-4245-4dae-a914-0ad028eee65d"
-=======
-              "widthName": 110.341796875,
-              "widthComment": 67,
-              "widthDataType": 94.94873046875,
-              "widthDefault": 60
-            },
-            "id": "ff9d1bfc-e9dd-4ac6-919a-505e9e766d51"
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
+
           }
         ],
         "ui": {
           "active": false,
           "left": 22,
-<<<<<<< HEAD
+
           "top": 759,
           "zIndex": 15,
-=======
-          "top": 757,
-          "zIndex": 21,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 118.30810546875,
           "widthComment": 67
         },
@@ -897,15 +853,11 @@
         ],
         "ui": {
           "active": false,
-<<<<<<< HEAD
+
           "left": 1409,
           "top": 715,
           "zIndex": 6,
-=======
-          "left": 30,
-          "top": 1029,
-          "zIndex": 22,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "widthName": 90.11181640625,
           "widthComment": 60
         },
@@ -1228,8 +1180,7 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-<<<<<<< HEAD
-=======
+
           "tableId": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf",
           "columnIds": [
             "11d19174-4ee7-4311-af11-768582e25987"
@@ -1256,7 +1207,7 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "tableId": "dabb83d0-8a02-4979-808e-de5bb2c25d00",
           "columnIds": [
             "f191f1ec-7415-4bea-992b-d86b46bea11b"
@@ -1309,8 +1260,7 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-<<<<<<< HEAD
-=======
+
           "tableId": "74da9b72-452e-46cd-bc19-51112413faa5",
           "columnIds": [
             "1e8288ee-5977-4972-96e1-a40bfa7281b5"
@@ -1337,27 +1287,11 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
-          "tableId": "1c9cc3ca-393d-42c5-98db-bfd1c648db6e",
-          "columnIds": [
-            "d47513e3-2c63-44c2-859b-1ea7af0d4bab"
-          ],
-          "x": 446.80322265625,
-          "y": 536,
-          "direction": "right"
-        },
-        "end": {
-          "tableId": "e1b3a1dd-22c4-469a-a18a-77ecaaf9efdf",
-          "columnIds": [
-            "1b257976-2d71-447f-9f94-26704fa41ef3"
-          ],
-<<<<<<< HEAD
+
+
           "x": 594,
           "y": 775.5,
-=======
-          "x": 675,
-          "y": 725.25,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "direction": "left"
         },
         "constraintName": "fk_recheckup_to_result",
@@ -1408,18 +1342,15 @@
           "columnIds": [
             "abcf368b-ef1d-4d1c-8243-b70de03282eb"
           ],
-<<<<<<< HEAD
+
           "x": 1044.39892578125,
           "y": 775.5,
-=======
-          "x": 1038.533203125,
-          "y": 535.75,
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
           "direction": "right"
         },
         "constraintName": "fk_age_to_medicalcheckup",
         "visible": true,
-<<<<<<< HEAD
+
         "id": "90913506-cc2e-4d38-ac89-eebe41a46f50"
       },
       {
@@ -1473,9 +1404,7 @@
         "constraintName": "fk_result_to_medicalcheckup",
         "visible": true,
         "id": "9b1635c4-46dc-46af-a1a7-caf2ec358d8e"
-=======
-        "id": "1649742e-246c-4b87-a5cd-95fcfb99749c"
->>>>>>> 13838a85105a1a43ac8143110884b0ffc62d9949
+
       }
     ]
   }
