@@ -62,7 +62,7 @@ VALUES
 
 -- MEBERS_LOGIN
 INSERT INTO members_login
-(E_MAIL,UNIQUE_ID,MEMBERS_LOGIN_ID)
+(E_MAIL,UNIQUE_ID,MEMBPRIMARYERS_LOGIN_ID)
 VALUES
 ('hong@gmail.com','M-01','E-01'),
 ('park.younghee@naver.com','M-02','E-02'),

@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -16,
+    "scrollTop": -125,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -189,7 +189,7 @@
           "active": false,
           "left": 154,
           "top": 14,
-          "zIndex": 9,
+          "zIndex": 4,
           "widthName": 106.0126953125,
           "widthComment": 60,
           "color": "#F44336"
@@ -252,7 +252,7 @@
           "active": false,
           "left": 0,
           "top": 592,
-          "zIndex": 7,
+          "zIndex": 3,
           "widthName": 120.47265625,
           "widthComment": 61.22998046875,
           "color": "#03A9F4"
@@ -311,22 +311,22 @@
             "id": "acab5f77-5733-4400-9e3b-cb7498af01fe"
           },
           {
-            "name": "MEMBERS_LOGIN",
+            "name": "MEMBERS_LOGIN_ID",
             "comment": "회원정보_로그인_ID",
             "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 115.41357421875,
+              "widthName": 135.6435546875,
               "widthComment": 120,
               "widthDataType": 94.94873046875,
               "widthDefault": 60
@@ -401,7 +401,7 @@
           "active": false,
           "left": 1,
           "top": 374,
-          "zIndex": 2,
+          "zIndex": 7,
           "widthName": 92.3017578125,
           "widthComment": 60,
           "color": "#03A9F4"
@@ -464,7 +464,7 @@
           "active": false,
           "left": 702,
           "top": 145,
-          "zIndex": 5,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60,
           "color": "#03A9F4"
@@ -527,7 +527,7 @@
           "active": false,
           "left": 704,
           "top": 266,
-          "zIndex": 11,
+          "zIndex": 5,
           "widthName": 64.84814453125,
           "widthComment": 60,
           "color": "#03A9F4"
