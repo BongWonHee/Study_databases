@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -6,
+    "scrollTop": -106,
     "scrollLeft": 0,
-    "zoomLevel": 1,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -250,9 +250,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 0,
-          "top": 592,
-          "zIndex": 3,
+          "left": 9.9998,
+          "top": 583.1112,
+          "zIndex": 8,
           "widthName": 120.47265625,
           "widthComment": 61.22998046875,
           "color": "#03A9F4"
@@ -399,9 +399,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1,
-          "top": 374,
-          "zIndex": 7,
+          "left": 13.2221,
+          "top": 372.8889,
+          "zIndex": 9,
           "widthName": 92.3017578125,
           "widthComment": 60,
           "color": "#03A9F4"
@@ -591,8 +591,8 @@
           "columnIds": [
             "66df137b-0512-43e6-b059-88519eaa0ef6"
           ],
-          "x": 220.740234375,
-          "y": 592,
+          "x": 230.740034375,
+          "y": 583.1112,
           "direction": "top"
         },
         "end": {
@@ -600,8 +600,8 @@
           "columnIds": [
             "83b57d93-e5a7-450e-8a7a-94383776e66f"
           ],
-          "x": 221.740234375,
-          "y": 484,
+          "x": 233.962334375,
+          "y": 482.8889,
           "direction": "bottom"
         },
         "constraintName": "fk_members_hobby_to_hobby_code",
@@ -626,8 +626,8 @@
           "columnIds": [
             "a8cb6bda-059e-44d1-a7c6-3f006a12b3a1"
           ],
-          "x": 221.740234375,
-          "y": 374,
+          "x": 233.962334375,
+          "y": 372.8889,
           "direction": "top"
         },
         "constraintName": "fk_members_info_to_hobby_code",
