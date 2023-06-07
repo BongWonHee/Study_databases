@@ -16,3 +16,13 @@
 |Cars|[Carsver2.sql](./SQL/Carsver2.sql)|Cars Schema 작업||
 |Members|[Members.sql](./SQL/Members.sql)|Members Schema 작업||
 |MedicalCheckup|[MedicalCheckup.sql](./SQL/MEDICALCHECKUP.sql)|MedicalCheckup Schema 작업||
+
+
+## DATA BASE DML 연습
+|제목|파일명|설명|비고|
+|---|---|---|---|
+
+
+## DML 과제 확인
+|제목|파일명|설명|비고|
+|---|---|---|---|
