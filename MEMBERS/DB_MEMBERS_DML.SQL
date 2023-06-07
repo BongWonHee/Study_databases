@@ -36,7 +36,7 @@ VALUES
 (32, '정민호', '010-5555-6666', 'M-05', 'G-01', 'A-05');
 
 -- members_hobby 취미 코드 생성
-INSERT INTO members_hobby
+INSERT INTO hobby_code
 (HOBBY, HOBBY_CODE_ID)
 VALUES
 ('요리', 'H-01'),
@@ -50,7 +50,7 @@ VALUES
 ('수영', 'H-09');
 
 -- hobby_code 취미코드와 회원코드 연결
-INSERT INTO hobby_code
+INSERT INTO members_hobby
 (MEMBERS_ID, HOBBY_CODE_ID)
 VALUES
 ('M-01', 'H-01'),
