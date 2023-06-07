@@ -1,11 +1,17 @@
 SELECT COUNT(*) AS MENU, LIST_OUT.CategoryName
 FROM
 (
-SELECT INNER.* 
-FROM Categories AS INNER
-WHERE INNER.CategoryName IN ('Beverages','Produce')
+SELECT T_INNER.* 
+FROM Categories AS T_INNER
+WHERE T_INNER.CategoryName IN ('Beverages','Produce')
 ) AS LIST_OUT
 GROUP BY LIST_OUT.CategoryName;
+
+-- RESULT
+-- Number of Records: 2
+-- MENU	CategoryName
+-- 1	Beverages
+-- 1	Produce
 
 -- - Table : Categories
 -- - 조건 : CategoryName가 Produce, Beverages 제품에 갯수 각각 표시
