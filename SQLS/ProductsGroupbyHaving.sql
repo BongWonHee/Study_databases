@@ -15,3 +15,4 @@ CATEGORYID_LIST	CategoryID
 10	4
 12	8
 
+--출처 https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_having
