@@ -33,3 +33,4 @@
 |selectwhereNotCountry|[selectwhereNotCountry.sql](./SQLS/selectwhereNotCountry.sql)| 해당하는 나라 이름 제외한 결과값 확인||
 |selectwhereRangeAndEquals|[selectwhereRangeAndEquals.sql](./SQLS/selectwhereRangeAndEquals.sql)|범위내에 있는 조건 값을 확인||
 |whereOrderGroupby|[whereOrderGroupby.sql](./SQLS/whereOrderGroupby.sql)| 7,9번 직원의 주문갯수 확인 ||
+|ProductsGroupbyHaving|[ProductsGroupbyHaving.sql](./SQLS/ProductsGroupbyHaving.sql)|10개 이상을 가진 CategoryID 확인||
